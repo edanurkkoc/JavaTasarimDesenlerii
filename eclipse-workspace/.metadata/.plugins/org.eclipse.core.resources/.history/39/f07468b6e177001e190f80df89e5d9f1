@@ -1,0 +1,27 @@
+package sekil;
+
+public interface Sekil {
+	double alanhesapla();
+	double cevrehesapla();
+
+}
+ public class Dikdortgen implements Sekil{
+	 public int uzunluk;
+	 public int genislik;
+	 
+	 
+ 
+	@Override
+	public double alanhesapla() {
+		// TODO Auto-generated method stub
+		
+		return 0;
+	}
+
+	@Override
+	public double cevrehesapla() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	 
+ }

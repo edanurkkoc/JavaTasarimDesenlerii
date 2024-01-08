@@ -1,0 +1,9 @@
+package facade;
+
+public class SiparisIslemleri {
+	
+public int SiparisEkle(DateTime siparisTarihi,Musteri müsteri,KargoSirketi kargoSirketi) {
+	return1 ;
+	
+}
+}

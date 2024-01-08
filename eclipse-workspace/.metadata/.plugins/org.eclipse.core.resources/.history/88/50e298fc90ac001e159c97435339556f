@@ -1,0 +1,32 @@
+package facade;
+
+import java.awt.print.Book;
+import java.util.ArrayList;
+
+public class LibraryMember {
+private int id;
+private String name;
+private double debt;
+
+private ArrayList<Book>books=new ArrayList<>();
+
+public LibraryMember(int id, String name) {
+	super();
+	this.id = id;
+	this.name = name;
+
+}
+public void rentBook(Book book){
+	books.add(book);
+}
+public void returnBook(Book book){
+	books.remove(book);
+}
+
+public ArrayList<Book> getBooks() {
+	return books;
+}
+
+}
+
+

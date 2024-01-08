@@ -1,0 +1,50 @@
+/*
+//Bir kullanıcı sınıfı tanımla(yas,isim,soyisim vs),
+package otobusbiletfiyatHesapla;
+
+//import java.awt.desktop.AboutHandler;
+import java.util.Scanner;
+
+public class OtobusbiletHesapla {
+	double a;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner input=new Scanner(System.in);
+        
+		System.out.print("Mesafe bilginizi giriniz :");
+		double mesafe=input.nextInt();
+		System.out.print("Yas bilginizi giriniz :");
+		int yas=input.nextInt();
+		System.out.print("Yolculuk tipi (Tek yön(1),Gidis-Donus(2)) bilginizi giriniz :");
+		int yolculuk=input.nextInt();
+		double mesafe_ucret=mesafe*(0.10);
+		
+		double indirim=0;
+		if ( yolculuk==1 || yolculuk==2) {
+			if (mesafe>0 & yas>0) {
+				if (yolculuk==1) {					
+				if (yas<12) {indirim=50;}
+				if (12<yas & yas>24) {indirim=10;}
+				if (yas>65) {indirim=30;}
+				}
+			
+				
+				if (yolculuk==2){
+					
+					if (yas<12) {indirim=70;}
+					if (12<yas & yas>24) {indirim=30;}
+					if (yas>65) {indirim=50;}
+					
+				}
+			}
+			else {System.out.println("Mesafe ve yas bilgileri 0'dan buyuk olmalidir:");}
+			System.out.println("Toplam bilet fiyatiniz "+mesafe_ucret);
+			double indirimli_bilet_fiyati=(mesafe_ucret)-((mesafe_ucret)*(indirim/100));
+			System.out.println("İndirimli bilet fiyatiniz :" +indirimli_bilet_fiyati);
+		}	
+		else {System.out.println("Hatali veri girdiniz :");}
+		
+		}
+	}
+
+*/

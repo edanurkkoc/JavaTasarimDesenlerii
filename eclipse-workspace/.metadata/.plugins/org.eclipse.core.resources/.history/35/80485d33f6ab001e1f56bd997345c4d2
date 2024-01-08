@@ -1,0 +1,33 @@
+package builder;
+
+public class StarbucksBuilder {
+	//zorulu seçim
+	private String kahveBoyutu;
+	
+	//seçime göre değişir
+	private String laktozsuzSüt;
+	private String yumusatici;
+	
+	//Builder sınıfı
+	public static class Builder{
+		private final String kahveBoyutu;
+		
+		//seçime göre değişir
+		private String laktozsuzSüt;
+		private String yumusatici;
+		
+		public Builder(String kahveBoyutu) {
+			super();
+			this.kahveBoyutu=kahveBoyutu;
+		}
+		//Bu sınıfın tipinden bir tane tercih edilen türden bir metod yaratalım
+		public Builder LaktozsuzTayfa(String laktozmiktari){
+			
+			laktozmiktari=laktozsuzSüt;
+			return this;
+		}
+		
+	}
+	
+
+}

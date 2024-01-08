@@ -1,0 +1,46 @@
+package facade;
+
+import java.text.DecimalFormat;
+
+public class SepettekiUrun {
+	public int Id;
+	public String UrunAdi ;
+	public int Adet;
+	public DecimalFormat  Fiyat;
+	
+	
+	public SepettekiUrun(int id, String urunAdi, int adet, DecimalFormat fiyat) {
+		super();
+		Id = id;
+		UrunAdi = urunAdi;
+		Adet = adet;
+		Fiyat = fiyat;
+	}
+	
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		Id = id;
+	}
+	public String getUrunAdi() {
+		return UrunAdi;
+	}
+	public void setUrunAdi(String urunAdi) {
+		UrunAdi = urunAdi;
+	}
+	public int getAdet() {
+		return Adet;
+	}
+	public void setAdet(int adet) {
+		Adet = adet;
+	}
+	public DecimalFormat getFiyat() {
+		return Fiyat;
+	}
+	public void setFiyat(DecimalFormat fiyat) {
+		Fiyat = fiyat;
+	}
+	
+	
+}

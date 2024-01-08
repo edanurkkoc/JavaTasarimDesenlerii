@@ -1,0 +1,16 @@
+package adapter;
+
+public class Samsungtelefon implements Telefon {
+private int calismaVoltaji;
+
+public Samsungtelefon() {
+	calismaVoltaji=5;
+}
+	@Override
+	public int sarjet() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

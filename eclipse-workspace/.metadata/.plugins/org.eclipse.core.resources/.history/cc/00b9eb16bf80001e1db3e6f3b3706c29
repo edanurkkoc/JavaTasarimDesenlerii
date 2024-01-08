@@ -1,0 +1,7 @@
+package kitap;
+
+public class Kitap {
+	public int Sayfa_sayisi;
+	public String Kitap_adi,yazar;
+
+}

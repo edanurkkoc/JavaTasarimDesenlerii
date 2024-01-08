@@ -1,0 +1,57 @@
+package sekil;
+
+public interface Sekil {
+	double alanhesapla();
+	double cevrehesapla();
+
+}
+ class Dikdortgen implements Sekil{
+	 public int uzunluk;
+	 public int genislik;
+	 
+
+	public Dikdortgen(int uzunluk, int genislik) {
+		super();
+		this.uzunluk = uzunluk;
+		this.genislik = genislik;
+	}
+
+	@Override
+	public double alanhesapla() {
+		// TODO Auto-generated method stub
+	
+		return uzunluk*genislik;
+	}
+
+	@Override
+	public double cevrehesapla() {
+		// TODO Auto-generated method stub
+		return uzunluk +genislik;
+	}
+	 
+ }
+ /*
+ class Kare implements Sekil{
+	 public int kenarkare;
+
+	public Kare(int kenarkare) {
+		super();
+		this.kenarkare = kenarkare;
+	}
+	 
+ }
+ 
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

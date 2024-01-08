@@ -1,0 +1,15 @@
+package kitap;
+//class
+public class Kitap {
+//attirubes	
+	public int Sayfa_sayisi;
+	public String Kitap_adi,yazar;
+	//constructor
+	Kitap(int Sayfa_sayisi,String Kitap_adi,String yazar) {
+		this.Sayfa_sayisi=Sayfa_sayisi;
+		this.Kitap_adi=Kitap_adi;
+		this.yazar=yazar1;
+		
+	}
+
+}

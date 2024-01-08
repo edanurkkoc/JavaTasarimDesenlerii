@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;sekil&apos;&#x0D;&#x0A;- Original project: &apos;sekil&apos;&#x0D;&#x0A;- Original element: &apos;sekil.Sekil.java&apos;" description="Delete element" element1="/src&lt;sekil{Sekil.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1698751735214" subPackages="false" version="1.0"/>
+</session>

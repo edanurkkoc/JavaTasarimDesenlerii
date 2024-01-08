@@ -1,0 +1,22 @@
+package facade;
+
+import java.util.ArrayList;
+
+public class LibraryMember {
+private int id;
+private String name;
+private double debt;
+
+private ArrayList<Book> books=new ArrayList<>();
+
+public LibraryMember(int id, String name) {
+	super();
+	this.id = id;
+	this.name = name;
+	
+}
+
+
+
+
+}

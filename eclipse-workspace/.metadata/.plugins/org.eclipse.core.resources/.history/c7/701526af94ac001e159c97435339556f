@@ -1,0 +1,27 @@
+package facade;
+
+public class Musteri {
+	public int Id;
+	public String Ad ;
+	public String Soyad;
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		Id = id;
+	}
+	public String getAd() {
+		return Ad;
+	}
+	public void setAd(String ad) {
+		Ad = ad;
+	}
+	public String getSoyad() {
+		return Soyad;
+	}
+	public void setSoyad(String soyad) {
+		Soyad = soyad;
+	}
+	
+
+}

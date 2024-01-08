@@ -1,0 +1,5 @@
+package sekil;
+
+public interface Sekil {
+
+}

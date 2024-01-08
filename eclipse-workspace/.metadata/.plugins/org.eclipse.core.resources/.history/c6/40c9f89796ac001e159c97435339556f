@@ -1,0 +1,10 @@
+package facade;
+
+public class SiparisIslemleri {
+	
+public int SiparisEkle(DateTime siparisTarihi,Musteri müsteri,KargoSirketi kargoSirketi) {
+	 System.out.println(siparisTarihi.ToString() + " tarihinde " + musteri.ad + " isimli müşteri siparişi eklendi. Seçilen kargo şirketi:" + kargoSirketi.ad);
+	return 1 ;
+	
+}
+}

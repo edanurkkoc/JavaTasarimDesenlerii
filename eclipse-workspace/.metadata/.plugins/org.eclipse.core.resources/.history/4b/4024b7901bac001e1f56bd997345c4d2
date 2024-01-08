@@ -1,0 +1,15 @@
+package adapter;
+
+public class Utu implements ElektrikliEvAletleri{
+private int volt;
+ 
+public Utu () {
+	this.volt=volt;
+}
+	@Override
+	public int prizeTakveCalistir() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

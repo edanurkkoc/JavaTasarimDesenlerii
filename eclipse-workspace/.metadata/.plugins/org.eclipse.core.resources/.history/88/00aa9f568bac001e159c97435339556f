@@ -1,0 +1,8 @@
+package facade;
+
+public enum EnumBorcTuru {
+	NORMAL;
+	YAPİLANDİRMA;
+	
+
+}

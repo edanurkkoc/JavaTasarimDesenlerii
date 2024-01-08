@@ -1,0 +1,12 @@
+package adapter;
+
+public class TelefonEEAdapter implements ElektrikliEvAletleri {
+
+	@Override
+	public int prizeTakveCalistir() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

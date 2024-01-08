@@ -1,0 +1,18 @@
+package facade;
+
+public class Book {
+	private String name;
+    private boolean hasTimeOut;
+    private int scheduledHoldingDay;
+    private int actualHoldingDay;
+    public static double defaultRentingPrice = 0.35;
+	public Book(String name, int scheduledHoldingDay, int actualHoldingDay) {
+		super();
+		this.name = name;
+		this.scheduledHoldingDay = scheduledHoldingDay;
+		this.actualHoldingDay = actualHoldingDay;
+	}
+    
+    
+
+}

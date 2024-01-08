@@ -1,0 +1,13 @@
+package facade;
+
+import java.time.LocalDateTime;
+
+public class SiparisIslemleri {
+	Musteri musteri;
+	
+public int SiparisEkle(LocalDateTime siparisTarihi,Musteri müsteri,KargoSirketi kargoSirketi) {
+	 System.out.println(siparisTarihi.ToString() + " tarihinde " + musteri.Ad + " isimli müşteri siparişi eklendi. Seçilen kargo şirketi:" + kargoSirketi.Ad);
+	return 1 ;
+	
+}
+}

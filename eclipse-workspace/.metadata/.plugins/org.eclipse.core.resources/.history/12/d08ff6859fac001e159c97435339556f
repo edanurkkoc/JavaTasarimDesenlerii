@@ -1,0 +1,37 @@
+package facade;
+
+public class KargoSirketi {
+	public int Id;
+	public String Ad;
+	public String iletisim;
+	
+	
+	public KargoSirketi(int id, String ad, String iletisim) {
+		super();
+		Id = id;
+		Ad = ad;
+		this.iletisim = iletisim;
+	}
+	
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		Id = id;
+	}
+	public String getAd() {
+		return Ad;
+	}
+	public void setAd(String ad) {
+		Ad = ad;
+	}
+	public String getIletisim() {
+		return iletisim;
+	}
+	public void setIletisim(String iletisim) {
+		this.iletisim = iletisim;
+	}
+	
+	
+
+}

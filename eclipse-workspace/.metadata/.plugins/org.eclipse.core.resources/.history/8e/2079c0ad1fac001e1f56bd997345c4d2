@@ -1,0 +1,21 @@
+package adapter;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Priz priz=new Priz();
+		Utu utu=new Utu();
+		Buzdolabi buzdolabi=new Buzdolabi();
+		
+		priz.elektrikVer(buzdolabi);
+		priz.elektrikVer(utu);
+		
+		Samsungtelefon samsungtelefon=new Samsungtelefon();
+		TelefonEEAdapter adapter=new TelefonEEAdapter(samsungtelefon);
+		priz.prizeTakveCalistir(adapter);
+
+	}
+
+}

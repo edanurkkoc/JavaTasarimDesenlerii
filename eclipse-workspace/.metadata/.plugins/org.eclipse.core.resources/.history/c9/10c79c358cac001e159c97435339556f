@@ -1,0 +1,27 @@
+package facade;
+
+import java.math.BigDecimal;
+import java.sql.Date;
+
+import javax.xml.crypto.Data;
+
+public class Borc {
+	private Long id;
+	private EnumBorcTuru borcTuru;
+	private BigDecimal borcTutari;
+	private Date vadeTarihi;
+	
+	public Borc() {
+		
+	}
+
+	public Borc(Long id, EnumBorcTuru borcTuru, BigDecimal borcTutari, Date vadeTarihi) {
+		super();
+		this.id = id;
+		this.borcTuru = borcTuru;
+		this.borcTutari = borcTutari;
+		this.vadeTarihi = vadeTarihi;
+	}
+	
+	
+}

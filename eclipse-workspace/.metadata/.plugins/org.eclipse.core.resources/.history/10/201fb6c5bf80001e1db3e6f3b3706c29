@@ -1,0 +1,13 @@
+package kitap;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Kitap sınıfınfan bir nsne oluşturdum
+		
+		
+
+	}
+
+}

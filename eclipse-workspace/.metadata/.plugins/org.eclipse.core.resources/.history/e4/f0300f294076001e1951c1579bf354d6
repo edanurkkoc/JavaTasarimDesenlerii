@@ -1,0 +1,20 @@
+package otobusbiletfiyatHesapla;
+
+import java.util.Scanner;
+
+public class OtobusbiletHesapla {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Scanner input=new Scanner(System.in);
+
+		System.out.println("Mesafe bilginizi giriniz :");
+		int mesafe=inputScanner.nextInt();
+		System.out.println("Yas bilginizi giriniz :");
+		int yas=inputScanner.nextInt();
+		System.out.println("Yolculuk tipi (Tek yön,Gidis-Donus) bilginizi giriniz :");
+		String=inputScanner.nextLine();
+		
+	}
+
+}

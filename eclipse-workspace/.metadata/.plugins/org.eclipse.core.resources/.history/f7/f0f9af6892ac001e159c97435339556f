@@ -1,0 +1,10 @@
+package facade;
+
+public class Musteri {
+	public int Id;
+	public String Ad ;
+	public String Soyad;
+	
+	
+
+}

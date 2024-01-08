@@ -1,0 +1,12 @@
+package facade;
+
+public class Test {
+	public static void main() {
+		
+		Musteri eda=new Musteri("Eda", "Felan");
+		CrediCartFacade crediCartFacade=new CrediCartFacade();
+		crediCartFacade.createCrediCart(eda);
+		System.out.println(eda.getAd());
+	}
+
+}

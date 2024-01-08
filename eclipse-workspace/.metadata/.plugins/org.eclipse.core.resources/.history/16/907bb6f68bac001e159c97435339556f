@@ -1,0 +1,14 @@
+package facade;
+
+import java.math.BigDecimal;
+
+import javax.xml.crypto.Data;
+
+public class Borc {
+	private Long id;
+	private EnumBorcTuru borcTuru;
+	private BigDecimal borcTutari;
+	private Data VadeTarihi;
+	
+	
+}

@@ -1,0 +1,11 @@
+package facade;
+
+import java.text.DecimalFormat;
+
+public class SepettekiUrun {
+	public int Id;
+	public String UrunAdi ;
+	public int Adet;
+	public DecimalFormat  Fiyat;
+	
+}

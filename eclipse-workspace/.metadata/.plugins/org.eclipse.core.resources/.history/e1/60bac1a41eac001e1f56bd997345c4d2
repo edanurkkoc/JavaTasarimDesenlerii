@@ -1,0 +1,18 @@
+package adapter;
+
+public class TelefonEEAdapter implements ElektrikliEvAletleri {
+	
+	private Telefon telefon;
+	
+	public TelefonEEAdapter(Telefon telefon) {
+		this.telefon=telefon;
+		
+	}
+	@Override
+	public int prizeTakveCalistir() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

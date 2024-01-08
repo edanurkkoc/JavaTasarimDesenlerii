@@ -1,0 +1,17 @@
+package builder;
+
+public class StarbucksBuilder {
+	//zorulu seçim
+	private String kahveBoyutu;
+	
+	//seçime göre değişir
+	private String laktozsuzSüt;
+	private String yumusatici;
+	
+	public static class Builder{
+		
+		
+	}
+	
+
+}

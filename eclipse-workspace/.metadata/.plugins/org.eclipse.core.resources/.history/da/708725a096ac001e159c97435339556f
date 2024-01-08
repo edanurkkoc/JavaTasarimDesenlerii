@@ -1,0 +1,37 @@
+package facade;
+
+public class Musteri {
+	public int Id;
+	public String Ad ;
+	public String Soyad;
+	
+	
+	
+	public Musteri(int id, String ad, String soyad) {
+		super();
+		this.Id = id;
+		this.Ad = ad;
+		this.Soyad = soyad;
+	}
+	
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		return Id = id;
+	}
+	public String getAd() {
+		return Ad;
+	}
+	public void setAd(String ad) {
+		Ad = ad;
+	}
+	public String getSoyad() {
+		return Soyad;
+	}
+	public void setSoyad(String soyad) {
+		Soyad = soyad;
+	}
+	
+
+}

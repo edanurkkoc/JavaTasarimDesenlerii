@@ -1,0 +1,14 @@
+package sekil;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Dikdortgen dikdortgen= new Dikdortgen(2, 3);
+		System.out.println("Alan :"+dikdortgen.alanhesapla());
+		System.out.println("Alan :"+dikdortgen.cevrehesapla());
+
+	}
+
+}

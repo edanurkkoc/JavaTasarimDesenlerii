@@ -1,0 +1,14 @@
+package ders11;
+
+//import org.w3c.dom.UserDataHandler;
+
+public class Adapter implements DB {
+
+}
+public interface DB{
+	public User selectUserById(int id);
+	public void insertUser(User user);
+}
+public class Oracle implements DB{
+	
+}
